@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 @RestController
-@RequestMapping("/book")
+@RequestMapping("api/book")
 public class BookController {
     private final BookService bookService;
 

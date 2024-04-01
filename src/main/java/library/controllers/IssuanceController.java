@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 @RestController
-@RequestMapping("/issuance")
+@RequestMapping("api/issuance")
 public class IssuanceController {
     private final IssuanceService issuanceService;
 

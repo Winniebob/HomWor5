@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 @RestController
-@RequestMapping("/reader")
+@RequestMapping("api/reader")
 public class ReaderController {
     private final ReaderService readerService;
 
