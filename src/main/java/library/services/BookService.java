@@ -4,6 +4,7 @@ import jakarta.annotation.PostConstruct;
 import library.models.Book;
 import library.repositories.BookRepository;
 import org.springframework.stereotype.Service;
+import library.util.Timer;
 
 
 import java.util.List;
@@ -14,6 +15,7 @@ import java.util.Objects;
  * Класс описывает логику взаимодействия пользователя с хранилищем книг
  */
 @Service
+@Timer
 public class BookService {
     private final BookRepository bookRepository;
 
